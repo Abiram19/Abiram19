@@ -1,0 +1,48 @@
+{
+    "frontend": [
+        "React",
+        "Next.js",
+        "Angular",
+        "TypeScript",
+        "JavaScript",
+        "Tailwind CSS",
+        "HTML5",
+        "CSS3"
+    ],
+    "backend": [
+        "Node.js",
+        "Express.js",
+        "NestJS",
+        "ASP.NET Core",
+        "REST APIs",
+        "JWT Authentication"
+    ],
+    "database": [
+        "MongoDB",
+        "PostgreSQL",
+        "SQL Server"
+    ],
+    "ai_ml": [
+        "Python",
+        "Scikit-Learn",
+        "XGBoost",
+        "Machine Learning",
+        "Explainable AI"
+    ],
+    "devops_cloud": [
+        "Azure DevOps",
+        "Docker",
+        "Git",
+        "GitHub",
+        "CI/CD",
+        "Vercel",
+        "Railway",
+        "Render"
+    ],
+    "tools": [
+        "VS Code",
+        "Visual Studio",
+        "Postman",
+        "Figma"
+    ]
+}
