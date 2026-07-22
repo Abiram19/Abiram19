@@ -80,3 +80,4 @@ Let's build something great. Whether it's software engineering, research collabo
 - **Email:** [abiram0619@gmail.com](mailto:abiram0619@gmail.com)
 - **LinkedIn:** [abiram-pathmanathan](https://linkedin.com/in/abiram-pathmanathan-a44ba5268)
 - **Website:** [abirampathmanathan.com](https://www.abirampathmanathan.com)
+- **Phone:** [+94773351906]
