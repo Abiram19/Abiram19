@@ -1,0 +1,326 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 2780" role="img" aria-labelledby="hero-title hero-desc">
+  <title id="hero-title">Abiram Pathmanathan Software Engineer Hero Banner</title>
+  <desc id="hero-desc">A dark premium engineering-themed portfolio SVG with an engineering hero banner and a technical expertise section of categorized technology badges.</desc>
+  <defs>
+    <style>
+      .font{font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+      .blue-stroke{stroke:#4F8DFF}
+      .muted-stroke{stroke:#AAB4C5}
+      .no-fill{fill:none}
+      .tag,.tech-badge{fill:#4F8DFF;fill-opacity:.07;stroke:#4F8DFF;stroke-opacity:.15}
+    </style>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#4F8DFF" stroke-width=".4" stroke-opacity=".055"/>
+    </pattern>
+    <linearGradient id="edge-a" x2="1600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4F8DFF" stop-opacity="0"/>
+      <stop offset=".2" stop-color="#4F8DFF" stop-opacity=".08"/>
+      <stop offset=".8" stop-color="#4F8DFF" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#4F8DFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="edge-b" x2="1600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4F8DFF" stop-opacity="0"/>
+      <stop offset=".2" stop-color="#4F8DFF" stop-opacity=".1"/>
+      <stop offset=".8" stop-color="#4F8DFF" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#4F8DFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="divider" x1="800" y1="72.8" x2="800" y2="447.2" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4F8DFF" stop-opacity="0"/>
+      <stop offset=".3" stop-color="#4F8DFF" stop-opacity=".12"/>
+      <stop offset=".7" stop-color="#4F8DFF" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#4F8DFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="curve-a" x2="780" y2="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4F8DFF" stop-opacity=".08"/>
+      <stop offset=".4" stop-color="#4F8DFF" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#4F8DFF" stop-opacity=".06"/>
+    </linearGradient>
+    <linearGradient id="curve-b" x1="780" x2="0" y2="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4F8DFF" stop-opacity=".04"/>
+      <stop offset=".45" stop-color="#4F8DFF" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#4F8DFF" stop-opacity=".04"/>
+    </linearGradient>
+    <linearGradient id="focus-rule" x1="1290" y1="379" x2="1506" y2="379" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4F8DFF" stop-opacity=".15"/>
+      <stop offset="1" stop-color="#4F8DFF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow-l" cx="140" cy="180" r="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4F8DFF" stop-opacity=".07"/>
+      <stop offset=".7" stop-color="#4F8DFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-r" cx="1230" cy="260" r="350" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4F8DFF" stop-opacity=".09"/>
+      <stop offset=".65" stop-color="#4F8DFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vignette" cx="50%" cy="50%" r="71%">
+      <stop offset=".4" stop-color="#05070B" stop-opacity="0"/>
+      <stop offset="1" stop-color="#05070B" stop-opacity=".65"/>
+    </radialGradient>
+    <radialGradient id="art-fade" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#4F8DFF" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#4F8DFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow-blue" x="-60" y="40" width="900" height="400" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-faint" x="-60" y="100" width="900" height="380" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-soft" x="350" y="140" width="80" height="80" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="12" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow-card" x="150" y="240" width="1300" height="2400" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="4" stdDeviation="20" flood-color="#000" flood-opacity=".5"/>
+    </filter>
+    <filter id="shadow-badge" x="-28" y="-22" width="274" height="77" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#4F8DFF" flood-opacity=".08"/>
+    </filter>
+    <filter id="glow-green" x="10" y="4" width="24" height="25" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip-r"><path d="M800 0h800v520H800z"/></clipPath>
+    <clipPath id="clip-art"><path d="M0 0h780v520H0z"/></clipPath>
+  </defs>
+  <path fill="#05070B" d="M0 0h1600v2780H0z"/>
+  <path fill="url(#grid)" d="M0 0h1600v2780H0z"/>
+  <circle cx="140" cy="180" r="260" fill="url(#glow-l)"/>
+  <circle cx="1230" cy="260" r="350" fill="url(#glow-r)"/>
+  <g clip-path="url(#clip-r)">
+    <g clip-path="url(#clip-art)" transform="translate(810)">
+      <ellipse cx="390" cy="260" rx="320" ry="220" fill="url(#art-fade)"/>
+      <g class="blue-stroke" stroke-width=".3" stroke-opacity=".06" stroke-dasharray="3 18">
+        <path d="M20 80h740M20 160h740M20 260h740M20 360h740M20 440h740"/>
+        <path d="M130 20v480M260 20v480M390 20v480M520 20v480M650 20v480"/>
+      </g>
+      <path class="no-fill" d="M-20 380C100 320 220 80 390 180C560 280 680 60 800 100" stroke="url(#curve-a)" stroke-width="1.2" filter="url(#glow-blue)"/>
+      <path class="no-fill" d="M-20 140C120 200 260 440 390 340C520 240 660 460 800 420" stroke="url(#curve-b)" stroke-width=".9" filter="url(#glow-faint)"/>
+      <g class="no-fill blue-stroke">
+        <path d="M60 520C180 360 300 200 390 260C480 320 600 140 720 0" stroke-width=".5" stroke-opacity=".12"/>
+        <path d="M780 300C640 260 500 420 390 380C280 340 140 180 0 220" stroke-width=".4" stroke-opacity=".09"/>
+        <path d="M500 160a90 90 0 0 1 80 80" stroke-width=".5" stroke-opacity=".2" stroke-dasharray="2 8"/>
+        <path d="M220 300a70 70 0 0 0 70 70" stroke-width=".45" stroke-opacity=".16" stroke-dasharray="2 8"/>
+        <path d="M100 480A340 240 0 0 1 680 40" stroke-width=".4" stroke-opacity=".08"/>
+      </g>
+      <g stroke-linecap="butt">
+        <path class="muted-stroke" d="M220 188l340 144" stroke-width=".35" stroke-opacity=".14" stroke-dasharray="6 12"/>
+        <path class="muted-stroke" d="M318 90l144 340" stroke-width=".35" stroke-opacity=".1" stroke-dasharray="4 16"/>
+      </g>
+      <g class="blue-stroke">
+        <circle cx="390" cy="260" r="2.5" fill="#4F8DFF" fill-opacity=".5" stroke="none" filter="url(#glow-blue)"/>
+        <circle cx="390" cy="260" r="6" fill="none" stroke-width=".5" stroke-opacity=".25"/>
+        <path d="M382 260h16M390 252v16" stroke-width=".6" stroke-opacity=".3"/>
+        <circle cx="220" cy="80" r="1.8" fill="#4F8DFF" fill-opacity=".3" stroke="none"/>
+        <path d="M214 80h12M220 74v12" stroke-width=".5" stroke-opacity=".22"/>
+        <circle cx="560" cy="440" r="1.8" fill="#4F8DFF" fill-opacity=".3" stroke="none"/>
+        <path d="M554 440h12M560 434v12" stroke-width=".5" stroke-opacity=".22"/>
+      </g>
+      <g fill="#AAB4C5" fill-opacity=".18">
+        <circle cx="130" cy="200" r="1.2"/><circle cx="650" cy="320" r="1.2"/><circle cx="310" cy="470" r="1.2"/><circle cx="470" cy="90" r="1.2"/><circle cx="680" cy="180" r="1.2"/>
+      </g>
+      <circle cx="390" cy="180" r="3" fill="#4F8DFF" fill-opacity=".18" filter="url(#glow-soft)"/>
+    </g>
+  </g>
+  <path fill="url(#divider)" d="M799.5 72.8h1v374.4h-1z"/>
+  <path fill="url(#vignette)" d="M0 0h1600v520H0z"/>
+  <g class="font">
+    <text x="92" y="151" fill="#4F8DFF" font-size="10.5" font-weight="600" letter-spacing=".22em">SOFTWARE ENGINEER</text>
+    <text x="92" y="219" fill="#F8FAFC" font-size="68" font-weight="800" letter-spacing="-.03em"><tspan x="92">Abiram</tspan><tspan x="92" dy="68">Pathmanathan</tspan></text>
+    <text x="92" y="332" fill="#7A8899" font-size="15.5" letter-spacing=".005em"><tspan x="92">Building scalable software, solving complex problems,</tspan><tspan x="92" dy="25.6">and crafting modern digital experiences.</tspan></text>
+    <g transform="translate(92 391)" filter="url(#shadow-badge)">
+      <rect width="218" height="33" rx="16.5" fill="#4F8DFF" fill-opacity=".07" stroke="#4F8DFF" stroke-opacity=".22"/>
+      <path d="M1 1h216" stroke="#fff" stroke-opacity=".05"/>
+      <circle cx="22" cy="16.5" r="6.5" fill="#4ADE80" fill-opacity=".2"/>
+      <circle cx="22" cy="16.5" r="3.5" fill="#4ADE80" filter="url(#glow-green)"/>
+      <text x="39" y="21" fill="#AAB4C5" font-size="12.5" font-weight="500" letter-spacing=".02em">Available for Opportunities</text>
+    </g>
+  </g>
+  
+  <path fill="url(#edge-a)" d="M0 0h1600v1H0z"/>
+  <path fill="url(#edge-b)" d="M0 519h1600v1H0z"/>
+  <g id="technical-expertise" class="font">
+    <ellipse cx="800" cy="548" rx="460" ry="210" fill="url(#art-fade)" opacity=".22"/>
+    <ellipse cx="1280" cy="900" rx="360" ry="260" fill="url(#art-fade)" opacity=".08"/>
+    <g>
+      <path d="M200 616h24" stroke="#4F8DFF" stroke-width="1.5" stroke-opacity=".7" stroke-linecap="round"/>
+      <text x="232" y="620" fill="#4F8DFF" font-size="10" font-weight="700" letter-spacing=".22em" opacity=".85">STACK</text>
+      <text x="200" y="678" fill="#F8FAFC" font-size="38" font-weight="800" letter-spacing="-.025em">TECHNICAL EXPERTISE</text>
+      <text x="200" y="724" fill="#596475" font-size="15" letter-spacing=".005em">Technologies I use to design, build, deploy, and scale modern software products.</text>
+    </g>
+
+    <g id="frontend" transform="translate(200 765)">
+      <rect width="18" height="2" y="1" rx="1" fill="#60A5FA" opacity=".8"/><text x="28" y="6" fill="#60A5FA" font-size="10" font-weight="700" letter-spacing=".18em" opacity=".9">FRONTEND</text>
+      <g transform="translate(0 26)" fill="#AAB4C5" font-size="12.5" font-weight="500" letter-spacing=".01em">
+        <g><rect class="tech-badge" width="70" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#60A5FA" opacity=".65"/><text x="27" y="21.5">React</text></g>
+        <g transform="translate(77)"><rect class="tech-badge" width="82" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#60A5FA" opacity=".65"/><text x="27" y="21.5">Next.js</text></g>
+        <g transform="translate(166)"><rect class="tech-badge" width="82" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#60A5FA" opacity=".65"/><text x="27" y="21.5">Angular</text></g>
+        <g transform="translate(255)"><rect class="tech-badge" width="102" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#60A5FA" opacity=".65"/><text x="27" y="21.5">TypeScript</text></g>
+        <g transform="translate(0 41)"><rect class="tech-badge" width="112" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#60A5FA" opacity=".65"/><text x="27" y="21.5">Tailwind CSS</text></g>
+        <g transform="translate(119 41)"><rect class="tech-badge" width="76" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#60A5FA" opacity=".65"/><text x="27" y="21.5">HTML5</text></g>
+        <g transform="translate(202 41)"><rect class="tech-badge" width="66" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#60A5FA" opacity=".65"/><text x="27" y="21.5">CSS3</text></g>
+        <g transform="translate(275 41)"><rect class="tech-badge" width="104" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#60A5FA" opacity=".65"/><text x="27" y="21.5">JavaScript</text></g>
+      </g>
+    </g>
+
+    <g id="backend" transform="translate(840 765)">
+      <rect width="18" height="2" y="1" rx="1" fill="#34D399" opacity=".8"/><text x="28" y="6" fill="#34D399" font-size="10" font-weight="700" letter-spacing=".18em" opacity=".9">BACKEND</text>
+      <g transform="translate(0 26)" fill="#AAB4C5" font-size="12.5" font-weight="500" letter-spacing=".01em">
+        <g><rect class="tech-badge" width="86" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#34D399" opacity=".65"/><text x="27" y="21.5">Node.js</text></g>
+        <g transform="translate(93)"><rect class="tech-badge" width="100" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#34D399" opacity=".65"/><text x="27" y="21.5">Express.js</text></g>
+        <g transform="translate(200)"><rect class="tech-badge" width="78" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#34D399" opacity=".65"/><text x="27" y="21.5">NestJS</text></g>
+        <g transform="translate(285)"><rect class="tech-badge" width="122" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#34D399" opacity=".65"/><text x="27" y="21.5">ASP.NET Core</text></g>
+        <g transform="translate(0 41)"><rect class="tech-badge" width="92" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#34D399" opacity=".65"/><text x="27" y="21.5">REST APIs</text></g>
+        <g transform="translate(99 41)"><rect class="tech-badge" width="150" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#34D399" opacity=".65"/><text x="27" y="21.5">JWT Authentication</text></g>
+      </g>
+    </g>
+
+    <g id="databases" transform="translate(200 910)">
+      <rect width="18" height="2" y="1" rx="1" fill="#F472B6" opacity=".8"/><text x="28" y="6" fill="#F472B6" font-size="10" font-weight="700" letter-spacing=".18em" opacity=".9">DATABASES</text>
+      <g transform="translate(0 26)" fill="#AAB4C5" font-size="12.5" font-weight="500" letter-spacing=".01em">
+        <g><rect class="tech-badge" width="96" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#F472B6" opacity=".65"/><text x="27" y="21.5">MongoDB</text></g>
+        <g transform="translate(103)"><rect class="tech-badge" width="105" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#F472B6" opacity=".65"/><text x="27" y="21.5">PostgreSQL</text></g>
+        <g transform="translate(215)"><rect class="tech-badge" width="100" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#F472B6" opacity=".65"/><text x="27" y="21.5">SQL Server</text></g>
+      </g>
+    </g>
+
+    <g id="artificial-intelligence" transform="translate(840 910)">
+      <rect width="18" height="2" y="1" rx="1" fill="#A78BFA" opacity=".8"/><text x="28" y="6" fill="#A78BFA" font-size="10" font-weight="700" letter-spacing=".18em" opacity=".9">ARTIFICIAL INTELLIGENCE</text>
+      <g transform="translate(0 26)" fill="#AAB4C5" font-size="12.5" font-weight="500" letter-spacing=".01em">
+        <g><rect class="tech-badge" width="78" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#A78BFA" opacity=".65"/><text x="27" y="21.5">Python</text></g>
+        <g transform="translate(85)"><rect class="tech-badge" width="112" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#A78BFA" opacity=".65"/><text x="27" y="21.5">Scikit-Learn</text></g>
+        <g transform="translate(204)"><rect class="tech-badge" width="92" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#A78BFA" opacity=".65"/><text x="27" y="21.5">XGBoost</text></g>
+        <g transform="translate(303)"><rect class="tech-badge" width="142" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#A78BFA" opacity=".65"/><text x="27" y="21.5">Machine Learning</text></g>
+        <g transform="translate(0 41)"><rect class="tech-badge" width="126" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#A78BFA" opacity=".65"/><text x="27" y="21.5">Explainable AI</text></g>
+      </g>
+    </g>
+
+    <g id="cloud-devops" transform="translate(200 1040)">
+      <rect width="18" height="2" y="1" rx="1" fill="#FBBF24" opacity=".8"/><text x="28" y="6" fill="#FBBF24" font-size="10" font-weight="700" letter-spacing=".18em" opacity=".9">CLOUD &amp; DEVOPS</text>
+      <g transform="translate(0 26)" fill="#AAB4C5" font-size="12.5" font-weight="500" letter-spacing=".01em">
+        <g><rect class="tech-badge" width="122" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#FBBF24" opacity=".65"/><text x="27" y="21.5">Azure DevOps</text></g>
+        <g transform="translate(129)"><rect class="tech-badge" width="54" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#FBBF24" opacity=".65"/><text x="27" y="21.5">Git</text></g>
+        <g transform="translate(190)"><rect class="tech-badge" width="78" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#FBBF24" opacity=".65"/><text x="27" y="21.5">GitHub</text></g>
+        <g transform="translate(275)"><rect class="tech-badge" width="76" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#FBBF24" opacity=".65"/><text x="27" y="21.5">Docker</text></g>
+        <g transform="translate(358)"><rect class="tech-badge" width="68" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#FBBF24" opacity=".65"/><text x="27" y="21.5">CI/CD</text></g>
+        <g transform="translate(0 41)"><rect class="tech-badge" width="82" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#FBBF24" opacity=".65"/><text x="27" y="21.5">Railway</text></g>
+        <g transform="translate(89 41)"><rect class="tech-badge" width="78" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#FBBF24" opacity=".65"/><text x="27" y="21.5">Render</text></g>
+        <g transform="translate(174 41)"><rect class="tech-badge" width="76" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#FBBF24" opacity=".65"/><text x="27" y="21.5">Vercel</text></g>
+      </g>
+    </g>
+
+    <g id="development-tools" transform="translate(840 1040)">
+      <rect width="18" height="2" y="1" rx="1" fill="#22D3EE" opacity=".8"/><text x="28" y="6" fill="#22D3EE" font-size="10" font-weight="700" letter-spacing=".18em" opacity=".9">DEVELOPMENT TOOLS</text>
+      <g transform="translate(0 26)" fill="#AAB4C5" font-size="12.5" font-weight="500" letter-spacing=".01em">
+        <g><rect class="tech-badge" width="86" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#22D3EE" opacity=".65"/><text x="27" y="21.5">VS Code</text></g>
+        <g transform="translate(93)"><rect class="tech-badge" width="112" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#22D3EE" opacity=".65"/><text x="27" y="21.5">Visual Studio</text></g>
+        <g transform="translate(212)"><rect class="tech-badge" width="92" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#22D3EE" opacity=".65"/><text x="27" y="21.5">Postman</text></g>
+        <g transform="translate(311)"><rect class="tech-badge" width="72" height="34" rx="8"/><circle cx="13" cy="17" r="3" fill="#22D3EE" opacity=".65"/><text x="27" y="21.5">Figma</text></g>
+      </g>
+    </g>
+
+    <path d="M200 1160h1200" stroke="#4F8DFF" stroke-opacity=".07"/>
+    <g transform="translate(200 1195)" fill="#596475" font-size="11.5" font-weight="500" letter-spacing=".01em">
+      <circle cx="3" cy="-4" r="3" fill="#60A5FA" opacity=".7"/><text x="15">8 Frontend</text>
+      <circle cx="111" cy="-4" r="3" fill="#34D399" opacity=".7"/><text x="123">6 Backend</text>
+      <circle cx="219" cy="-4" r="3" fill="#F472B6" opacity=".7"/><text x="231">3 Databases</text>
+      <circle cx="346" cy="-4" r="3" fill="#A78BFA" opacity=".7"/><text x="358">5 AI</text>
+      <circle cx="418" cy="-4" r="3" fill="#FBBF24" opacity=".7"/><text x="430">8 Cloud &amp; DevOps</text>
+      <circle cx="584" cy="-4" r="3" fill="#22D3EE" opacity=".7"/><text x="596">4 Development Tools</text>
+      <text x="1075" fill="#596475" font-weight="400">34 Technologies Total</text>
+    </g>
+  </g>
+
+  <g id="education" class="font">
+    <ellipse cx="420" cy="1340" rx="360" ry="190" fill="url(#art-fade)" opacity=".12"/>
+    <path d="M200 1304h24" stroke="#4F8DFF" stroke-width="1.5" stroke-opacity=".7" stroke-linecap="round"/>
+    <text x="232" y="1308" fill="#4F8DFF" font-size="10" font-weight="700" letter-spacing=".22em" opacity=".85">ACADEMICS</text>
+    <text x="200" y="1366" fill="#F8FAFC" font-size="38" font-weight="800" letter-spacing="-.025em">Education</text>
+    <text x="200" y="1412" fill="#596475" font-size="15" letter-spacing=".005em"><tspan x="200">My academic foundation in computer science and continuous commitment to learning modern</tspan><tspan x="200" dy="25.5">software engineering practices.</tspan></text>
+    <g filter="url(#shadow-card)">
+      <rect x="200" y="1488" width="1200" height="190" rx="14" fill="#0A0E18" fill-opacity=".72" stroke="#4F8DFF" stroke-opacity=".13"/>
+      <path d="M201 1489h1198" stroke="#fff" stroke-opacity=".04"/>
+      <path d="M260 1532v100" stroke="#4F8DFF" stroke-width="1" stroke-opacity=".14"/>
+      <circle cx="260" cy="1532" r="6" fill="#4F8DFF" fill-opacity=".18" stroke="#4F8DFF" stroke-opacity=".45"/>
+      <circle cx="260" cy="1532" r="2.5" fill="#4F8DFF" fill-opacity=".7"/>
+      <text x="292" y="1537" fill="#F8FAFC" font-size="21" font-weight="700" letter-spacing="-.015em">Uva Wellassa University of Sri Lanka</text>
+      <text x="292" y="1573" fill="#AAB4C5" font-size="15.5" font-weight="500">BSc (Hons) Computer Science and Technology</text>
+      <text x="292" y="1610" fill="#596475" font-size="13.5">Research Interest</text>
+      <text x="292" y="1636" fill="#F8FAFC" font-size="15" font-weight="600">Machine Learning Engineering and AI</text>
+      <g fill="#AAB4C5" font-size="12.5" font-weight="500" letter-spacing=".01em">
+        <rect class="tech-badge" x="1090" y="1570" width="132" height="34" rx="8"/><circle cx="1103" cy="1587" r="3" fill="#4F8DFF" opacity=".65"/><text x="1117" y="1591.5">2022 — 2026</text>
+      </g>
+    </g>
+  </g>
+
+  <g id="certifications" class="font">
+    <ellipse cx="1180" cy="1780" rx="420" ry="240" fill="url(#art-fade)" opacity=".1"/>
+    <path d="M200 1744h24" stroke="#4F8DFF" stroke-width="1.5" stroke-opacity=".7" stroke-linecap="round"/>
+    <text x="232" y="1748" fill="#4F8DFF" font-size="10" font-weight="700" letter-spacing=".22em" opacity=".85">LEARNING</text>
+    <text x="200" y="1806" fill="#F8FAFC" font-size="38" font-weight="800" letter-spacing="-.025em">Certifications</text>
+    <text x="200" y="1852" fill="#596475" font-size="15" letter-spacing=".005em">Professional certifications and continuous learning that strengthen my software engineering expertise.</text>
+    <g filter="url(#shadow-card)" fill="#AAB4C5" font-size="13" letter-spacing=".005em">
+      <g transform="translate(200 1906)">
+        <rect width="360" height="132" rx="14" fill="#0A0E18" fill-opacity=".72" stroke="#4F8DFF" stroke-opacity=".13"/><path d="M1 1h358" stroke="#fff" stroke-opacity=".04"/>
+        <text x="24" y="40" fill="#F8FAFC" font-size="16" font-weight="700">AI Python for Beginners: Basics of AI Python</text><text x="24" y="72">DeepLearning.AI</text><text x="24" y="101" fill="#596475">Year Placeholder</text>
+        <rect class="tech-badge" x="202" y="88" width="130" height="26" rx="13"/><text x="220" y="105" fill="#AAB4C5" font-size="11.5" font-weight="500">Status Placeholder</text>
+      </g>
+      <g transform="translate(620 1906)">
+        <rect width="360" height="132" rx="14" fill="#0A0E18" fill-opacity=".72" stroke="#4F8DFF" stroke-opacity=".13"/><path d="M1 1h358" stroke="#fff" stroke-opacity=".04"/>
+        <text x="24" y="40" fill="#F8FAFC" font-size="16" font-weight="700">Automating Tasks with Python</text><text x="24" y="72">DeepLearning.AI</text><text x="24" y="101" fill="#596475">Year Placeholder</text>
+        <rect class="tech-badge" x="202" y="88" width="130" height="26" rx="13"/><text x="220" y="105" fill="#AAB4C5" font-size="11.5" font-weight="500">Status Placeholder</text>
+      </g>
+      <g transform="translate(1040 1906)">
+        <rect width="360" height="132" rx="14" fill="#0A0E18" fill-opacity=".72" stroke="#4F8DFF" stroke-opacity=".13"/><path d="M1 1h358" stroke="#fff" stroke-opacity=".04"/>
+        <text x="24" y="40" fill="#F8FAFC" font-size="16" font-weight="700">Using JavaScript with AI</text><text x="24" y="72">Coursera Project Network</text><text x="24" y="101" fill="#596475">Year Placeholder</text>
+        <rect class="tech-badge" x="202" y="88" width="130" height="26" rx="13"/><text x="220" y="105" fill="#AAB4C5" font-size="11.5" font-weight="500">Status Placeholder</text>
+      </g>
+      <g transform="translate(200 2062)">
+        <rect width="360" height="132" rx="14" fill="#0A0E18" fill-opacity=".72" stroke="#4F8DFF" stroke-opacity=".13"/><path d="M1 1h358" stroke="#fff" stroke-opacity=".04"/>
+        <text x="24" y="40" fill="#F8FAFC" font-size="16" font-weight="700">Learn Svelte</text><text x="24" y="72">Scrimba</text><text x="24" y="101" fill="#596475">Year Placeholder</text>
+        <rect class="tech-badge" x="202" y="88" width="130" height="26" rx="13"/><text x="220" y="105" fill="#AAB4C5" font-size="11.5" font-weight="500">Status Placeholder</text>
+      </g>
+      <g transform="translate(620 2062)">
+        <rect width="360" height="132" rx="14" fill="#0A0E18" fill-opacity=".72" stroke="#4F8DFF" stroke-opacity=".13"/><path d="M1 1h358" stroke="#fff" stroke-opacity=".04"/>
+        <text x="24" y="40" fill="#F8FAFC" font-size="16" font-weight="700">Business Foundations: OPF</text><text x="24" y="72">Coursera</text><text x="24" y="101" fill="#596475">Year Placeholder</text>
+        <rect class="tech-badge" x="202" y="88" width="130" height="26" rx="13"/><text x="220" y="105" fill="#AAB4C5" font-size="11.5" font-weight="500">Status Placeholder</text>
+      </g>
+      <g transform="translate(1040 2062)">
+        <rect width="360" height="132" rx="14" fill="#0A0E18" fill-opacity=".72" stroke="#4F8DFF" stroke-opacity=".13"/><path d="M1 1h358" stroke="#fff" stroke-opacity=".04"/>
+        <text x="24" y="40" fill="#F8FAFC" font-size="16" font-weight="700">The Fundamentals of Digital Marketing</text><text x="24" y="72">Google Digital Garage</text><text x="24" y="101" fill="#596475">Year Placeholder</text>
+        <rect class="tech-badge" x="202" y="88" width="130" height="26" rx="13"/><text x="220" y="105" fill="#AAB4C5" font-size="11.5" font-weight="500">Status Placeholder</text>
+      </g>
+    </g>
+  </g>
+
+  <g id="contact" class="font">
+    <path d="M200 2272h24" stroke="#4F8DFF" stroke-width="1.5" stroke-opacity=".7" stroke-linecap="round"/>
+    <text x="232" y="2276" fill="#4F8DFF" font-size="10" font-weight="700" letter-spacing=".22em" opacity=".85">CONNECT</text>
+    <text x="200" y="2334" fill="#F8FAFC" font-size="38" font-weight="800" letter-spacing="-.025em">Let&apos;s Build Something Great</text>
+    <text x="200" y="2380" fill="#596475" font-size="15" letter-spacing=".005em"><tspan x="200">Whether it&apos;s software engineering, research collaboration, or building modern digital products,</tspan><tspan x="200" dy="25.5">I&apos;d love to connect.</tspan></text>
+    <g filter="url(#shadow-card)" fill="#AAB4C5" font-size="13" letter-spacing=".005em">
+      <g transform="translate(200 2448)">
+        <rect width="380" height="108" rx="14" fill="#0A0E18" fill-opacity=".72" stroke="#4F8DFF" stroke-opacity=".13"/><path d="M1 1h378" stroke="#fff" stroke-opacity=".04"/>
+        <circle cx="38" cy="54" r="17" fill="#4F8DFF" fill-opacity=".07" stroke="#4F8DFF" stroke-opacity=".18"/><path d="M28 49l10 8 10-8M28 49h20v14H28z" fill="none" stroke="#4F8DFF" stroke-width="1.2" stroke-opacity=".75"/>
+        <text x="76" y="45" fill="#4F8DFF" font-size="10" font-weight="700" letter-spacing=".18em">EMAIL</text><text x="76" y="73" fill="#F8FAFC" font-size="15" font-weight="600">abiram0619@gmail.com</text>
+      </g>
+      <g transform="translate(610 2448)">
+        <rect width="380" height="108" rx="14" fill="#0A0E18" fill-opacity=".72" stroke="#4F8DFF" stroke-opacity=".13"/><path d="M1 1h378" stroke="#fff" stroke-opacity=".04"/>
+        <circle cx="38" cy="54" r="17" fill="#4F8DFF" fill-opacity=".07" stroke="#4F8DFF" stroke-opacity=".18"/><path d="M30 62V49M30 45v-1M37 62V51M37 51c3-4 11-3 11 5v6" fill="none" stroke="#4F8DFF" stroke-width="1.8" stroke-linecap="round" stroke-opacity=".75"/>
+        <text x="76" y="45" fill="#4F8DFF" font-size="10" font-weight="700" letter-spacing=".18em">LINKEDIN</text><text x="76" y="73" fill="#F8FAFC" font-size="12.8" font-weight="600">linkedin.com/in/abiram-pathmanathan-a44ba5268</text>
+      </g>
+      <g transform="translate(1020 2448)">
+        <rect width="380" height="108" rx="14" fill="#0A0E18" fill-opacity=".72" stroke="#4F8DFF" stroke-opacity=".13"/><path d="M1 1h378" stroke="#fff" stroke-opacity=".04"/>
+        <circle cx="38" cy="54" r="17" fill="#4F8DFF" fill-opacity=".07" stroke="#4F8DFF" stroke-opacity=".18"/><circle cx="38" cy="54" r="10" fill="none" stroke="#4F8DFF" stroke-width="1.2" stroke-opacity=".75"/><path d="M28 54h20M38 44c4 5 4 15 0 20M38 44c-4 5-4 15 0 20" fill="none" stroke="#4F8DFF" stroke-width="1.1" stroke-opacity=".75"/>
+        <text x="76" y="45" fill="#4F8DFF" font-size="10" font-weight="700" letter-spacing=".18em">WEBSITE</text><text x="76" y="73" fill="#F8FAFC" font-size="14.5" font-weight="600">www.abirampathmanathan.com</text>
+      </g>
+    </g>
+  </g>
+
+  <g id="footer" class="font">
+    <ellipse cx="800" cy="2640" rx="520" ry="120" fill="url(#art-fade)" opacity=".1"/>
+    <path d="M200 2610h1200" stroke="#4F8DFF" stroke-opacity=".08"/>
+    <text x="200" y="2662" fill="#F8FAFC" font-size="18" font-weight="700" letter-spacing="-.01em">Abiram Pathmanathan</text>
+    <text x="200" y="2690" fill="#4F8DFF" font-size="10" font-weight="700" letter-spacing=".18em">SOFTWARE ENGINEER</text>
+    <text x="200" y="2722" fill="#596475" font-size="13.5">Building scalable software through thoughtful engineering.</text>
+    <text x="1400" y="2662" text-anchor="end" fill="#AAB4C5" font-size="13" font-weight="500">©  Abiram Pathmanathan</text>
+    <text x="1400" y="2694" text-anchor="end" fill="#596475" font-size="13">Made with passion, precision, and modern web technologies.</text>
+  </g></svg>
